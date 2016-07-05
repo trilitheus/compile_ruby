@@ -1,4 +1,4 @@
-name 'ruby'
+name 'compile_ruby'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'all_rights'
