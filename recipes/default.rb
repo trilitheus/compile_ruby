@@ -10,7 +10,7 @@ bundler_version = node['ruby']['bundler_version']
 
 package 'readline-devel'
 
-include_recipe 'build_essential'
+include_recipe 'build-essential'
 include_recipe 'ruby_build'
 
 ruby_build_ruby ruby_version do
