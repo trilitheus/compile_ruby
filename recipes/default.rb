@@ -6,11 +6,12 @@
 
 ruby_version = node['ruby']['version']
 gem_version = node['ruby']['gem_version']
-bundler_version = ['ruby']['bundler_version']
+bundler_version = node['ruby']['bundler_version']
 
 package 'readline-devel'
 
-include_recipe 'ruby-build'
+include_recipe 'build_essential'
+include_recipe 'ruby_build'
 
 ruby_build_ruby ruby_version do
   prefix_path '/usr/local'

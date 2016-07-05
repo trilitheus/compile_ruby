@@ -6,4 +6,5 @@ description 'Installs/Configures ruby'
 long_description 'Installs/Configures ruby'
 version '0.1.0'
 
+depends 'build_essential'
 depends 'ruby_build', '~> 0.8.0'
