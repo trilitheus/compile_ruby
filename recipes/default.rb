@@ -16,7 +16,7 @@ include_recipe 'ruby_build'
 ruby_build_ruby ruby_version do
   prefix_path '/usr/local'
   environment ({
-    'CFLAGS' => '-g O2',
+    'CFLAGS' => '-g -O2',
     'TMPDIR' => '/opt/ruby-build'
   })
   action node['ruby']['install_action']
