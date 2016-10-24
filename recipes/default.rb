@@ -1,9 +1,3 @@
-#
-# Cookbook Name:: compile_ruby
-# Recipe:: default
-#
-# Copyright (c) 2016 The Authors, All Rights Reserved.
-
 ruby_version = node['ruby']['version']
 gem_version = node['ruby']['gem_version']
 bundler_version = node['ruby']['bundler_version']
